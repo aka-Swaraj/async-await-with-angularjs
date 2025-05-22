@@ -1,1 +1,43 @@
+<h2>Async / Await in Angularjs applicationn</h2>
+
+<h4>Fetch</h4>
+<p>
+  when you click on the fetch, the data will be retrived using promise
+  implementation.
+</p>
+<p>
+  as angular js can handle promises, the data will be reflected in the view.
+</p>
+
+<h4>Fetch Async</h4>
+<p>
+  when you click on the fetch async, the data will be retrived using async/await
+  implementation.
+</p>
+<p>
+  as angular js can't handle async/await, the data will not be reflected in the
+  view. but you can see the console, to make sure data came from server.
+</p>
+
+<h4>Fetch Async (digest)</h4>
+<p>
+  when you click on the fetch async(digest), the data will be retrived using
+  asynd/await implementation.
+</p>
+<p>
+  as angular js can't handle promises, the data will nont be reflected in the
+  view. So we manually trigger the digest so that we can intimate angular the
+  data has been changed, thus reflecting changes in the view.
+</p>
+<hr />
+
+<div>
+  You can open your console to see whether data came or not when button clicked.
+  and view reflects as above.
+  <p>
+    It is always better to refresh the page, while clicking the button, to
+    understand properly.
+  </p>
+</div>
+
 <div id="app"></div>
